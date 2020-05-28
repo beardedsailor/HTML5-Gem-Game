@@ -4,7 +4,6 @@ const game = new Phaser.Game(800, 600, Phaser.AUTO, '', {
   create: create,
   update: update })
 
-// Declare shared variables at the top so all methods can access them
 let score = 0
 let scoreText
 let platforms
